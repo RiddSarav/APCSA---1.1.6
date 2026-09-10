@@ -14,6 +14,7 @@ public class NumbersRiddle {
         double startingValue=5.0;
 
         //Positive
+        System.out.println("Positive Test-case");
         startingValue = positive;
         System.out.println("the original number is " + positive);
         positive *= 2;
@@ -26,6 +27,7 @@ public class NumbersRiddle {
         System.out.println("subtracted original " + positive); 
         
         //Negative
+        System.out.println("Negative Test-case");
         startingValue = negative;
         System.out.println("the original number is " + negative);
         negative *= 2;
@@ -38,6 +40,7 @@ public class NumbersRiddle {
         System.out.println("subtracted original " + negative); 
 
         //Zero
+        System.out.println("Zero Test-case");
         startingValue = zero;
         System.out.println("the original number is " + zero);
         zero *= 2;
@@ -50,6 +53,7 @@ public class NumbersRiddle {
         System.out.println("subtracted original " + zero); 
 
         //One
+        System.out.println("One Test-case");
         startingValue = one;
         System.out.println("the original number is " + one);
         one *= 2;
@@ -62,6 +66,7 @@ public class NumbersRiddle {
         System.out.println("subtracted original " + one); 
 
         //positive double
+        System.out.println("Positive Double Test-case");
         startingValue = positiveDouble;
         System.out.println("the original number is " + positiveDouble);
         positiveDouble *= 2;
@@ -74,6 +79,7 @@ public class NumbersRiddle {
         System.out.println("subtracted original " + positiveDouble); 
 
         //negative double
+        System.out.println("Negative Double Test-case");
         startingValue = negativeDouble;
         System.out.println("the original number is " + negativeDouble);
         negativeDouble *= 2;
